@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    background-color: #3fa458;
+    text-align: center;
+}
+.container{
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #a366d5;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(96, 84, 62);
+    transition: transform 0.3s ease-in-out;
+    font-size: xx-large;
+    color: rgb(5, 241, 139);
+}
+.box:hover{
+    transform: scale(1.1);
+    background-color: #5cb0f5;
+    box-shadow: 0 0 10px rgb(96, 84, 62);
+    color: white;
+}
+#resetGame{
+    height: 40px;
+    width:110px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5cb0f5;
+    color: rgb(32, 33, 33);
+    box-shadow: 0 0 10px rgb(96, 84, 62);
+    font-size: large;
+  transition: transform 0.3s ease-in-out;
+}
+#resetGame:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.newGame{
+    height: 40px;
+    width:100px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5cb0f5;
+    color: rgb(32, 33, 33);
+    box-shadow: 0 0 10px rgb(96, 84, 62);
+    font-size: large;
+  transition: transform 0.3s ease-in-out;
+}
+.newGame:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#msg{
+    color: white;
+    
+}
+#h1{
+    color: white;
+    font-size: 40px;
+   
+}
+.msg-container{
+    font-size: 40px;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;;
+    
+}
+
+.NewGame{
+    height: 40px;
+    width:100px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5cb0f5;
+    color: rgb(32, 33, 33);
+    box-shadow: 0 0 10px rgb(96, 84, 62);
+    font-size: large;
+  transition: transform 0.3s ease-in-out;
+}
+.NewGame:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.drawGame{
+    font-size: 40px;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;;
+}
+.hide{
+    display: none;
+}
